@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Orbitron:wght@600&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  line-height: 1.6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .text-center {
+    text-align: left;
+  }
+}
+
+.flex {
+  display: flex;
+}
